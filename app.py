@@ -17,7 +17,7 @@ def main():
     if st.button("Salvar"):
         try:
             data_hora = datetime.combine(data, hora)
-            
+       
             
             venda = Vendas(
                 email=email,
